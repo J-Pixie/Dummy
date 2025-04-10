@@ -2,7 +2,7 @@
   <div>
     <!-- Navbar -->
     <nav class="bg-gray-800 text-white px-6 py-4 flex justify-between items-center">
-      <h2 class="text-xl font-semibold">CRUD Dashboard</h2>
+      <h2 class="text-xl font-semibold">CRUD Dashboard Welcome !</h2>
       <div class="flex items-center gap-4">
         <span class="text-sm">Logged in as: {{ user.name }}</span>
         <button @click="logout" class="bg-red-500 px-3 py-1 rounded hover:bg-red-600 text-white text-sm">
@@ -34,7 +34,7 @@
       <th class="py-2 px-4">Name</th>
       <th class="py-2 px-4">Email</th>
       <th class="py-2 px-4">Phone</th>
-      <th class="py-2 px-4">Actions</th>
+      <th class="py-2 px-4">Action</th>
     </tr>
   </thead>
   <tbody>
